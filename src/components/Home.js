@@ -1,11 +1,13 @@
 // components/Home.js
 import React from 'react';
+import body from '../body-1.jpeg';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Home Page</h2>
-      {/* Your home page content goes here */}
+    <div class='homebody'>
+     <h2> We can give you </h2>
+      <h1> Much More Than Others</h1>
+      <img class='photo' src={body} alt="app-logo" />
     </div>
   );
 };
