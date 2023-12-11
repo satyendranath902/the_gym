@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Navbar from './components/Navbar';
 import Payment from './components/Payment';
+import Gallary from './components/Gallary';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/services" element={<Services></Services>} />
         <Route path="/contact" element={<Contact></Contact>} />
         <Route path="/payment" element={<Payment/>} />
+        <Route path="/gallary" element={<Gallary/>} />
         <Route element={NotFound} />
       </Routes>
     </Router>
